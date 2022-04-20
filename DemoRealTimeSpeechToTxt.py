@@ -25,7 +25,7 @@ def recognized(args):
 
 # Creates an instance of a speech config with specified subscription key and service region.
 # Replace with your own subscription key and service region (e.g., "westus").
-speech_key, service_region = "b1a9ae31784041d9a1db9697dcdb3e20", "eastus"
+speech_key, service_region = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", "xxxxx"
 speech_config = speechsdk.SpeechConfig(subscription=speech_key, region=service_region)
 
 # Creates a recognizer with the given settings
